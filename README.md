@@ -1,6 +1,6 @@
 # Paradigm Pet Professionals Website
 This website was created based on the UI Design Specifications document provided in this repository.
-![Homepage](![main](https://github.com/SadiqHarry/HTML-CSS_Pet_Care_Website/assets/116308353/4440f9d0-480f-42a7-82be-f62e4f913daa))
+![Homepage]![main](https://github.com/SadiqHarry/HTML-CSS_Pet_Care_Website/assets/116308353/4440f9d0-480f-42a7-82be-f62e4f913daa)
 
 ## Description
 
