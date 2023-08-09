@@ -1,5 +1,6 @@
 # Paradigm Pet Professionals Website
 This website was created based on the UI Design Specifications document provided in this repository.
+![Homepage](![main](https://github.com/SadiqHarry/HTML-CSS_Pet_Care_Website/assets/116308353/4440f9d0-480f-42a7-82be-f62e4f913daa))
 
 ## Description
 
@@ -14,11 +15,8 @@ The Paradigm Pet Professionals Website is a comprehensive resource for pet owner
 - Contact information and links to terms of service and privacy policy
 
 ## Screenshots
-
-![Homepage](screenshots/home.png)
-![Cat Care Guide](screenshots/cat.png)
-![Dog Care Guide](screenshots/dog.png)
-![Fish Care Guide](screenshots/fish.png)
+![Consultation Form](![forum](https://github.com/SadiqHarry/HTML-CSS_Pet_Care_Website/assets/116308353/c91666a2-31f7-4148-8d1b-25a3c7c62eba))
+![Dog Care Guide](![dog](https://github.com/SadiqHarry/HTML-CSS_Pet_Care_Website/assets/116308353/170d1645-ac2b-4624-9bb7-264b652027b3))
 
 ## Setup Guide
 
@@ -44,8 +42,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions, suggestions, or feedback, please feel free to reach out:
 
-- Email: contact@paradigmpets.com
-- GitHub: [YourGitHubUsername](https://github.com/YourGitHubUsername)
+- Email: sadiqharry@gmail.com
+
 
 
 
