@@ -1,0 +1,156 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #6699CC; /* Primary color - Blue Sky */
+}
+
+/* Header styles */
+header {
+  background-color: #003B6D; /* Primary color - Midnight Blue */
+  color: #BDBDBD; /* Secondary color - Silver */
+  padding: 10px;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #003B6D; /* Primary color - Midnight Blue */
+  color: #BDBDBD; /* Secondary color - Silver */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #BDBDBD; /* Secondary color - Silver */
+  font-weight: bold;
+}
+
+#search-bar {
+  padding: 5px;
+  border: 1px solid #676767; /* Secondary color - Dim gray */
+  background-color: #BDBDBD; /* Secondary color - Silver */
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+  color: #676767; /* Secondary color - Dim gray */
+}
+
+/* Aside styles */
+aside {
+  width: 200px;
+  background-color: #FFFFE0; /* Secondary color - Lightyellow */
+  padding: 10px;
+}
+
+aside h2 {
+  margin-top: 0;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside li {
+  margin-bottom: 10px;
+}
+
+aside a {
+  color: #003B6D; /* Primary color - Midnight Blue */
+  font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+  background-color: #003B6D; /* Primary color - Midnight Blue */
+  color: #BDBDBD; /* Secondary color - Silver */
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #BDBDBD; /* Secondary color - Silver */
+  margin-right: 20px;
+}
+
+#social-icons {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.small-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.contact-form h2 {
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+

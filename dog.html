@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Dogs - Paradigm Pet Professionals</title>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Logo" width="300" height="200">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cat.html">Cats</a></li>
+            <li><a href="dog.html">Dogs</a></li>
+            <li><a href="fish.html">Fish</a></li>
+            
+        </ul>
+        <input type="text" id="search-bar" placeholder="Search Bar">
+    </nav>
+
+    <main>
+        <img src="dog1.jpg" alt="Dog 1" width="300" height="200">
+        <img src="dog2.jpg" alt="Dog 2" width="300" height="200">
+
+        <div id="breadcrumb">
+            <a href="index.html">Home</a> > <a href="dog.html">Dogs</a> > Dog Care Guide
+        </div>
+    
+
+        <h1>Dogs</h1>
+        <div>
+            
+        </div>
+        <p>
+            The domestic dog is an extremely social animal and offers a diverse variety of choices as there are well over 300 breeds recognized by the World Canine Organization. Adopting a dog offers mutual benefits between dog and owner. Many studies cite the social benefits of having a companion as well as the reduced feelings of loneliness from adopting a dog. Studies even show medical indicators such as <a href="https://www.ahajournals.org/doi/10.1161/CIRCOUTCOMES.119.005554">reduced blood pressure and improved lipid profiles</a>. If you have a dog, it is important to make sure that you care for your dog; be mindful of what you feed your dog and provide enough opportunities for exercise. In this page, you will find more information about how to care for your pets throughout the various stages of their lives.
+        </p>
+
+        <h2>Diet & Exercise</h2>
+        <p>
+            Throughout dogs’ lifespans, they should generally be fed fewer meals as they mature. Puppies should be nursed the first two months, then introduced to three meals per day when they are about three to six months years old. Their food intake should be reduced to two meals per day when they are six months to one year old and finally reduced to one meal after they reach one year old. And a dog’s typical body mass is composed of somewhere between 60 and 70 percent water. The ASPCA says just a 10 percent decrease in body water can cause illness, and a 15 percent loss can cause death, so make sure you keep your pooch hydrated!
+        </p>
+        <p>
+            Much like humans, dogs need to have a healthy level of activity to keep their organs healthy, as well as sun and fresh air. The minimum recommended time for exercise varies greatly with breed and size differences, but generally a range of 30–120 minutes of exercise is recommended per day! Can you imagine exercising two hours per day? OK, I know that wouldn't bother some of you reading this. But the thought of it to me makes me cringe! And by the way, exercising your dog does not mean you are being challenged to a push-up contest. Brisk walks are OK too! You can also choose from a variety of toys to encourage physical activity; just be sure they are age-appropriate and do not pose a choking hazard. Pay careful attention to toys that require supervision.
+        </p>
+
+        <h2>Grooming & Handling</h2>
+        <p>
+            Keeping your furry family member clean is important to its health. So be sure to brush frequently to reduce the amount of shedding and prevent matted and tangled fur that can prove to be extremely difficult to remove. Check for insects such as ticks and fleas, especially after visiting heavily wooded areas. Bathing is not only important to your dog’s health but can be an exercise depending on how strong-willed the dog is. Rinse all of the soap out, as any residual soap can result in a rash. Be sure the soap is formulated for your puppy or dog, since harsh soaps can cause allergic reactions. And as always, be careful how you handle your loved one. No matter the size of your dog, you need to be cautious as you carry your canine. If you have a small dog, then cradle the pup with one hand under the chest and the forearm supporting the back half. If it is a large dog, reach under the belly with both your arms perpendicular to the dog, and use each arm to support the chest and rear as you lift.
+        </p>
+
+        <h2>Vaccinations & Medications</h2>
+        <p>
+            You should always consult with your veterinarian, but there is a core set of vaccines that are typically recommended. Vaccines that reduce the exposure risk to things such as hepatitis, rabies, and parvovirus. Others may be determined by your vet depending on the environment in which the dog resides. Some of these include <a href="https://www.aspca.org/pet-care/general-pet-care/vaccinations-your-pet">Bordetella bronchiseptica, Borrelia burgdorferi, and Leptospira bacteria</a>.
+        </p>
+
+        <div class="contact-form">
+            <h2>Request a Virtual Consultation</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="timezone">Time Zone:</label>
+                <select id="timezone" name="timezone" required>
+                    <option value="PST">Pacific Standard Time (PST)</option>
+                    <option value="MST">Mountain Standard Time (MST)</option>
+                    <option value="CST">Central Standard Time (CST)</option>
+                    <option value="EST">Eastern Standard Time (EST)</option>
+                    <option value="AKST">Alaska Standard Time (AKST)</option>
+                    <option value="HAST">Hawaii-Aleutian Standard Time (HAST)</option>
+                    <option value="AST">Atlantic Standard Time (AST)</option>
+                    <option value="NST">Newfoundland Standard Time (NST)</option>
+                    
+                </select>
+
+                <label for="petname">Pet's Name:</label>
+                <input type="text" id="petname" name="petname" required>
+
+            
+                <input type="checkbox" id="dog" name="pettype" value="Dog">
+                <label for="dog">Dog</label>
+                <input type="checkbox" id="cat" name="pettype" value="Cat">
+                <label for="cat">Cat</label>
+                <input type="checkbox" id="fish" name="pettype" value="Fish">
+                <label for="fish">Fish</label>
+
+                <label for="pettype">Pet's Type/Breed:</label>
+                <input type="text" id="pettype" name="pettype" required>
+
+                <label for="petage">Pet's Age:</label>
+                <input type="number" id="petage" name="petage" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+       
+
+    </main>
+
+    <aside style="background-color: #6699CC; color: #6699CC;">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cat.html">Cats</a></li>
+            <li><a href="dog.html">Dogs</a></li>
+            <li><a href="fish.html">Fish</a></li>
+            
+        </ul>
+    </aside>
+
+    <footer>
+        <a href="terms.html">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="contact.html">Contact Us</a>
+        <img src="icon.jpg" alt="icon" class="small-icon">
+    </footer>
+</body>
+</html>

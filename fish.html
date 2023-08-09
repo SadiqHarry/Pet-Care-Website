@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Fish - Paradigm Pet Professionals</title>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Logo" width="300" height="200">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cat.html">Cats</a></li>
+            <li><a href="dog.html">Dogs</a></li>
+            <li><a href="fish.html">Fish</a></li>
+            
+        </ul>
+        <input type="text" id="search-bar" placeholder="Search Bar">
+    </nav>
+
+    <main>
+        <img src="fish1.jpg" alt="Fish 1" width="300" height="200">
+        <img src="fish2.jpg" alt="Fish 2" width="300" height="200">
+
+        <div id="breadcrumb">
+            <a href="index.html">Home</a> > <a href="fish.html">Fish</a> > Fish Care Guide
+        </div>
+    
+
+        <h1>Fish</h1>
+        <div>
+            <p>
+                Fish represent a broad class of aquatic animals that can live in fresh or saltwater, depending on the species. Bringing fish into your home can be an exciting hobby, especially if you intend to breed them, and the presence of a fish tank in your home can induce feelings of peace and tranquility.
+            </p>
+
+            <h2>Freshwater Fish</h2>
+            <p>
+                There are several freshwater fish to choose from when setting up your aquarium, but it is best to consult with a “Pexpert” to ensure your fish will get along! No matter the species, ensure your fish are suited for a freshwater environment by investing in a water testing kit. Follow these general water chemistry guidelines to ensure your fish will adapt well to your aquarium and avoid ingesting toxins that can harm or kill your fish:
+            </p>
+            <ul>
+                <li>pH Level: 6.8–7.6 (7.0 is considered neutral)</li>
+                <li>Ammonia: any level above zero is harmful to fish</li>
+                <li>Nitrates: 5 to 10 ppm</li>
+                <li>Nitrites: less than 0.5 ppm</li>
+            </ul>
+
+            <h2>Saltwater Fish</h2>
+            <p>
+                Saltwater fish also offer several options when it comes to choosing among species for your aquarium. As with freshwater fish, consult with a “Pexpert” to ensure your fish will get along and are suited for a saltwater environment. Following these general guidelines to avoid dangerous water conditions and ensure the appropriate salinity level for your fishies:
+            </p>
+            <ul>
+                <li>Salinity: 1.020–1.028 sg</li>
+                <li>pH Level: 7.6–8.4 (7.0 is considered neutral)</li>
+                <li>Ammonia: any level above 0.1 ppm requires attention</li>
+                <li>Nitrates: 10 to 40 ppm</li>
+                <li>Nitrites: less than 0.2 ppm</li>
+            </ul>
+
+            <p>
+                For more information on making your tap water safe for your fish, please visit:
+                <a href="http://www.theaquariumwiki.org/wiki/How_to_make_tap_water_safe_for_fish">http://www.theaquariumwiki.org/wiki/How_to_make_tap_water_safe_for_fish</a>
+                <a href="http://fishbase.org/home.htm">http://fishbase.org/home.htm</a>
+            </p>
+        </div>
+       
+        <div class="contact-form">
+            <h2>Request a Virtual Consultation</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="timezone">Time Zone:</label>
+                <select id="timezone" name="timezone" required>
+                    <option value="PST">Pacific Standard Time (PST)</option>
+                    <option value="MST">Mountain Standard Time (MST)</option>
+                    <option value="CST">Central Standard Time (CST)</option>
+                    <option value="EST">Eastern Standard Time (EST)</option>
+                    <option value="AKST">Alaska Standard Time (AKST)</option>
+                    <option value="HAST">Hawaii-Aleutian Standard Time (HAST)</option>
+                    <option value="AST">Atlantic Standard Time (AST)</option>
+                    <option value="NST">Newfoundland Standard Time (NST)</option>
+                    
+                </select>
+
+                <label for="petname">Pet's Name:</label>
+                <input type="text" id="petname" name="petname" required>
+
+            
+                <input type="checkbox" id="dog" name="pettype" value="Dog">
+                <label for="dog">Dog</label>
+                <input type="checkbox" id="cat" name="pettype" value="Cat">
+                <label for="cat">Cat</label>
+                <input type="checkbox" id="fish" name="pettype" value="Fish">
+                <label for="fish">Fish</label>
+
+                <label for="pettype">Pet's Type/Breed:</label>
+                <input type="text" id="pettype" name="pettype" required>
+
+                <label for="petage">Pet's Age:</label>
+                <input type="number" id="petage" name="petage" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+    </main>
+
+    <aside style="background-color: #6699CC; color: #6699CC;">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cat.html">Cats</a></li>
+            <li><a href="dog.html">Dogs</a></li>
+            <li><a href="fish.html">Fish</a></li>
+            
+        </ul>
+    </aside>
+
+    <footer>
+        <a href="terms.html">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="contact.html">Contact Us</a>
+        <img src="icon.jpg" alt="icon" class="small-icon">
+    </footer>
+</body>
+</html>
