@@ -1,7 +1,7 @@
 # Paradigm Pet Professionals Website
 The Paradigm Pet Professionals Website is a comprehensive resource for pet owners and enthusiasts, offering valuable information and guidance on pet care, nutrition, and more. The website is designed to help users make informed decisions about caring for their pets based on evidence-based advice from experts in the field.
 
-![main](https://github.com/SadiqHarry/HTML-CSS_Pet_Care_Website/blob/master/assets/116308353/654ce6c5-2c48-451f-aeb3-6a9c68f26d26)
+![Landing Page](https://github.com/SadiqHarry/Pet-Care-Website/assets/116308353/3a82f24f-b31e-4006-86c3-f326562efcf9)
 **_This website was created based on the UI Design Specifications document provided in this repository._
 
 ## Technologies Leveraged
@@ -16,8 +16,9 @@ The Paradigm Pet Professionals Website is a comprehensive resource for pet owner
 - Contact information and links to terms of service and privacy policy
 
 ## Screenshots
-![Consultation Form](![forum](https://github.com/SadiqHarry/HTML-CSS_Pet_Care_Website/assets/116308353/c91666a2-31f7-4148-8d1b-25a3c7c62eba)
-![Dog Care Guide](![dog](https://github.com/SadiqHarry/HTML-CSS_Pet_Care_Website/assets/116308353/170d1645-ac2b-4624-9bb7-264b652027b3)
+![Consultation Form](https://github.com/SadiqHarry/Pet-Care-Website/assets/116308353/c12ade7d-12ce-4e48-b1b3-7793d02674bd)
+![Dog Care Guide](https://github.com/SadiqHarry/Pet-Care-Website/assets/116308353/abbc87a4-0091-49e1-9c38-250aabfebc74)
+
 
 ## Setup Guide
 
